@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double+Ink:wght@100..900&family=Bokor&family=Bungee&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Konkhmer+Sleokchher&family=Koulen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double+Ink:wght@100..900&family=Bokor&family=Bungee&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Konkhmer+Sleokchher&family=Koulen&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+.continner {
+  text-align: center;
+  font-family: "Bungee", sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+}
+.h {
+  color: #ffffff;
+}
+* {
+  border: 1px;
+  width: 600px;
+  height: auto;
+  background-color: rgb(187, 192, 219);
+}
+.text {
+  font-size: 20px;
+  font-family: "Titillium Web", sans-serif;
+  color: #ffffff;
+}
+
+.text1,
+.text1,
+.text2,
+.text3,
+.text4,
+.text5 {
+  font-size: 20px;
+  font-family: "Titillium Web", sans-serif;
+  color: #ffffff;
+}
+.profile,
+.exper,
+.skills,
+.eduction {
+  font-size: 30px;
+  color: #ffffff;
+}
+.con {
+  border: 2px solid;
+  margin: 50px;
+  padding: 20px;
+  border-radius: 20px;
+}

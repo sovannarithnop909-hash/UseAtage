@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.control {
+  width: 300px;
+  height: 300px;
+  border: 1px solid blue;
+  margin: auto;
+  margin-top: 40px;
+  position: relative;
+}
+input{
+  width: 200px;
+  height: 20px;
+  border: 1px solid bisque;
+  border-radius: 30px;
+  position: absolute;
+  top: 30px;
+  left: 10px;
+
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  position: absolute;
+  top: 100px;
+  left: 10px;
+  border-radius: 50%;
+}
+.online {
+  width: 25px;
+  height: 25px;
+  background-color: green;
+  
+  position: absolute;
+  bottom: 2px;
+  right: 8px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+img {
+  width: 100%;
+}

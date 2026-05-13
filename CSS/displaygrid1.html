@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .parent{
+        width: 500px;
+        height: 500px;
+        display: grid;
+        grid-template-columns: repeat(4,100px);
+        grid-template-rows: repeat(9,30px);
+        gap: 10px;
+      
+    }
+    .child{
+        border: 1px solid black;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        
+    }
+    .parent div{
+        background-color: floralwhite;
+    }
+    .child1{
+        grid-row: span 2;
+    }
+    .child2{
+        grid-column: span 2;
+    }
+    .child3{
+        grid-row: span 2;
+    }
+    .child14{
+        grid-column: span 4;
+    }
+</style>
+<body>
+    <div class="parent">
+        <div class="child child1">ថ្ងៃ</div>
+        <div class="child child2">ម៉ោងរៀន</div>
+        <div class="child child3">មុខវិជ្ជា</div>
+        <div class="child child4">ចាប់ផ្ដើម</div>
+        <div class="child child5">បញ្ចប់</div>
+        <div class="child child6">ចន្ទ</div> 
+        <div class="child child7">8:00</div>
+        <div class="child child8">9:30</div>
+        <div class="child child9">Java</div>
+        <div class="child child10">អង្គារ</div>
+        <div class="child child11">9:45</div>
+        <div class="child child12">11:30</div>
+        <div class="child child13">Python</div>
+        <div class="child child14">សរុបថ្ងៃរៀន: 2</div>
+        
+    </div>
+</body>
+</html>

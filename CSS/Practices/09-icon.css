@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double+Ink:wght@100..900&family=Bokor&family=Bungee&family=Funnel+Display:wght@300..800&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Konkhmer+Sleokchher&family=Koulen&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+.card{
+    margin-top: 40px;
+}
+.box1{
+    background-color: rgb(149, 149, 148);
+    width: 310px;
+    height: 500px;  
+    border: 1px solid black;
+    border-radius: 10px;
+    display: inline-block;
+}
+.card img{
+    width: 290px;
+    height: 300px;
+    margin: auto;
+    margin: 10px;  
+    border-radius: 10px;
+    background-color: transparent;
+}
+.tital {
+    font-size: 20px;
+    color: aliceblue;
+    margin-left: 10px;
+
+}
+.card button{
+    margin-left: 60%;
+    border: 1px;
+    height: 40px;
+    width: 90px; 
+    border-radius: 20px;
+}
+.icon {
+    padding-top:  10px;
+}
+.icon i{
+    font-size: 20px;
+    color: aliceblue;
+    margin-left: 10px;
+
+}
+span{
+    color: aliceblue;
+}
+.box2{
+    border: 1px solid black;
+    justify-content: center;
+    display: inline-block;
+    width: 310px;
+    height: 500px;
+    
+}

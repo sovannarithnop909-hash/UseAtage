@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* fix name */
+.container {
+  display: flex;
+  position: relative;
+}
+
+/* sidebar */
+.sidebar {
+  width: 25%;
+  height: 100vh;
+  background-color: black;
+  padding: 20px;
+}
+
+/* menu */
+.main-menu {
+  width: 50%;
+  height: 100vh;
+  background-color: black;
+}
+
+.follow {
+  width: 25%;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+}
+.follow {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+/* remove bullet */
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.sidebar li a:hover {
+  background-color: #222;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  color: white;
+  margin-top: 20px;
+}
+
+.profile img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+span {
+  color: white;
+}
+
+h1 {
+  color: white;
+  margin-bottom: 20px;
+}
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  position: absolute;
+  top: 11%;
+  left: 35%;
+}
+.user-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.box-img {
+  width: 400px;
+  height: 600px;
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  border-radius: 10px;
+  position: absolute;
+  top: 11%;
+  left: 35%;
+}
+.box-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.text {
+  position: absolute;
+  left: 35%;
+  top: 85%;
+}
+.icon {
+  position: absolute;
+  left: 36%;
+  top: 81%;
+}
+
+.follow {
+  width: 25%;
+  height: 100vh;
+}
+
+.user {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.user img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+b {
+  color: floralwhite;
+}
+.us {
+  color: blue;
+  padding: 40px;
+}
+h4 {
+  color: oldlace;
+}
+
+.suggest {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.suggest img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.suggest span {
+  margin-left: 10px;
+}
+
+.suggest a {
+  margin-left: auto;
+  color: #0095f6;
+  text-decoration: none;
+  padding: 40px;
+}

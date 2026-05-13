@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cambodia Active</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: antiquewhite;
+        margin: 0;
+        padding: 40px;
+      }
+
+      .container {
+        max-width: 1000px;
+        margin: auto;
+      }
+      .title {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+      }
+      .card {
+        display: flex;
+        background-color: white;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 1);
+        transition: 0.3s;
+      }
+      .card:hover {
+        transform: translateY(-5px);
+      }
+      .card img {
+        width: 200px;
+        height: 130px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-right: 15px;
+      }
+      .card h3 {
+        margin: 0 0 10px;
+      }
+      .card p {
+        margin: 0;
+        color: rgb(5, 5, 5);
+      }
+      @media (max-width: 700px) {
+        .grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 align="center">Cambodia Activities</h1>
+      <div class="grid">
+        <div class="card">
+          <img
+            src="https://i.pinimg.com/1200x/2a/b5/26/2ab5266cef153a8090b94ba8391fcad3.jpg"
+            alt="angkor"
+            width="100px"
+            align="left"
+            haspace="10"
+          />
+          <div>
+            <h3>Angkor Temples small-Group Tour</h3>
+            <p>
+              We start our adventure with visit to Angkor Wat temples. easily
+              the most...
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://i.pinimg.com/736x/13/f8/f0/13f8f0875949833df549cec7e0e014e9.jpg"
+            alt="phom penh"
+            width="100px"
+            align="left"
+            haspace="10"
+          />
+          <div>
+            <h3>Phnom Penh Small-Group Tour: Geocide Museum, Killing Fields</h3>
+            <p>
+              The day start by learning about the tragi and fascinating recent
+              history of....
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://i.pinimg.com/1200x/f5/b7/e2/f5b7e289fad4c9ea90571d532afab976.jpg"
+            alt="selpak"
+            width="100px"
+            align="left"
+            haspace="10"
+          />
+          <div>
+            <h3>Siem Reap Phare: The Cambodia Circus Show Admission Ticket</h3>
+            <p>Phare Ponleu Selpak(PPS).a non....</p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://i.pinimg.com/736x/ed/51/cf/ed51cf752fbf56deeda40412887c9061.jpg"
+            alt="sunrise"
+            width="100px"
+            align="left"
+            haspace="10"
+          />
+          <div>
+            <h3>
+              Angkor Wat, The Royal Temples Private Day Tuor form Siem Reap
+            </h3>
+            <p>After hotel pickup by air-conditioned...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

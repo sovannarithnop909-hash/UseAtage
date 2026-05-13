@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Koulen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Konkhmer+Sleokchher&family=Koulen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bokor&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Konkhmer+Sleokchher&family=Koulen&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Konkhmer+Sleokchher&family=Koulen&display=swap');
+.fontkh {
+  font-family: "Kantumruy Pro", sans-serif;
+  width: 3%;
+}
+.font1 {
+  font-family: "Konkhmer Sleokchher", system-ui;
+  width: 27%;
+}
+.font2 {
+  font-family: "Bokor", system-ui;
+}
+.font3{
+     font-family: "Kantumruy Pro", sans-serif;
+     width: 21%;
+}
+.fontkh,
+.font1,
+.font2,
+.font3 {
+  color: aliceblue;
+  background-color: rgb(20, 204, 118);
+
+}
+
+body {
+  background-color: rgb(179, 164, 145);
+
+}

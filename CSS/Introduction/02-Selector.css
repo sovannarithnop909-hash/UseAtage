@@ -1,0 +1,39 @@
+.text{
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 221, 0.514); 
+    width: 40%;  
+    border-radius: 20px;
+}
+#texth1{
+    color: #fff;
+    background-color: rgb(32, 158, 20);
+    padding: 30px;
+    text-align: center;
+    width: 40%;
+    border-radius: 20px;
+}
+/* Text */
+h1{
+    color: green;
+    background-color: aquamarine;
+    padding: 30px;
+    text-align: center;
+    width: 40%;
+    border-radius: 20px;
+}
+.testdiv > p{
+    color: blue;
+    background-color: goldenrod;
+    padding: 30px;
+    text-align: center;
+    width: 40%;
+    border-radius: 20px;
+}
+body{
+    justify-content: first baseline;
+    display:flex;
+    display:flexbox ;
+    position: relative;
+}

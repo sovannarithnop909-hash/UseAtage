@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.go1{
+width: 400px;
+height: 500px;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+border-radius: 30px;
+margin-left: 10px;
+margin-bottom: 10px;
+background-color: white;
+margin: auto;
+
+
+}
+.go2 img{
+ 
+  width: 400px;
+  height: 250px;
+  border-radius: 30px;
+}
+
+.go3{
+  border: 2px rgba(3, 1, 1, 0.636) solid ;
+  width: 400px;
+  height: 246px;
+  border-radius: 30px;
+  background-color: white;
+  margin-bottom: 30px;
+}
+.go3 h2{
+  color: black;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.go3 input{
+padding: 5px;
+color: black;
+background-color: white;
+margin-left: 10px;
+border-radius: 5px;
+border: 1px solid rgb(42, 39, 39);
+
+}
+.go3 p{
+  padding: 10px;
+font-family: "Playwrite DK Uloopet Guides", cursive;
+}
+#go4{
+  width: 200px;
+  height: 50px;
+  margin-left: 100px;
+  background-color: blue;
+}
+.go3 label{
+  font-size: 20px;
+  font-family: "Playwrite DK Uloopet Guides", cursive;
+}
